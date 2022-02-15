@@ -1,0 +1,30 @@
+{
+  "name": "cordova-plugin-minify",
+  "version": "1.0.0",
+  "description": "A cordova plugin to concatenate and minify the cordova and plugin javascript files in an application",
+  "cordova": {
+    "id": "cordova-plugin-minify",
+    "platforms": [
+      "android",
+      "browser",
+      "ios",
+      "osx",
+      "windows"
+    ]
+  },  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "minify",
+    "uglify"
+  ],
+  "author": "DisasterAWARE (thomas.jaede@tenefit.com)",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "cordova-common": "^4.0.2",
+    "cordova-lib": "^8.1.1",
+    "uglify-js": "^3.14.5"
+  }
+}

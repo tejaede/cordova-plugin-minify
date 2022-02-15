@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0" id="cordova-plugin-minify" version="1.0.1">
+    <name>Minify Plugin</name>
+    <description>A cordova plugin to concatenate and minify the cordova and plugin javascript files in an application</description>
+    <license>Apache 2.0</license>
+    <keywords>cordova,minify,uglify</keywords>
+
+    <engines>
+        <engine name="cordova-ios" version="^6.2.0" />
+        <engine name="cordova-android" version="^10.1.0" />
+    </engines>
+    <hook type="after_build" src="scripts/hooks/after-build.js" />
+</plugin>
